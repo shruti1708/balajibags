@@ -76,7 +76,7 @@ function ProductsCarousel() {
       } else if (width < 900) {
         setVisibleCount(2);
       } else {
-        setVisibleCount(4);
+        setVisibleCount(3);
       }
     };
 
