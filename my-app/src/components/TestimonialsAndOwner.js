@@ -78,6 +78,8 @@
 // export default TestimonialsAndOwner;
 import React from 'react';
 import './TestimonialsAndOwner.css'; // Import your CSS
+import pankaj from '../assets/pankaj.jpg'
+import nishank from '../assets/nishank.jpg'
 
 const testimonials = [
   {
@@ -98,13 +100,13 @@ const owners = [
     name: 'Pankaj Bhimrajka',
     title: 'Founder & Director',
     bio: 'Pankaj brings over 30 years of experience in driving innovation and delivering high-impact products of bags.',
-    image: '/owner.jpg', // Replace with actual image path
+    image: pankaj, // Replace with actual image path
   },
   {
     name: 'Nishank Bhimrajka',
     title: 'Co-Founder & CMO',
     bio: 'Nishasnk has led marketing for over a decade with deep focus on sustainable branding and eco-friendly packaging.',
-    image: '/owner2.jpg', // Replace with actual image path
+    image: nishank, // Replace with actual image path
   },
 ];
 
