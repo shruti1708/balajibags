@@ -1,0 +1,10 @@
+@import "tailwindcss";
+
+body {
+  font-family: 'Lexend', sans-serif;
+  /* padding-left: 4rem;
+  padding-right: 4rem;
+  padding-top: 2rem;
+  padding-bottom: 2rem; */
+}
+

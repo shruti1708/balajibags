@@ -1,0 +1,84 @@
+.navbar-section {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: rgb(167, 157, 157);
+  padding: 15px 30px;
+  position: relative;
+}
+
+.navbar-logo {
+  font-size: 24px;
+  font-weight: bold;
+  color: white;
+}
+
+.navbar-links {
+  display: flex;
+  gap: 20px;
+}
+
+.nav-btn {
+  background: none;
+  border: none;
+  color: white;
+  font-size: 16px;
+  cursor: pointer;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.nav-btn:hover {
+  text-decoration: underline;
+}
+
+/* Hamburger styles */
+.hamburger {
+  display: none;
+  flex-direction: column;
+  cursor: pointer;
+  gap: 5px;
+}
+
+.bar {
+  width: 25px;
+  height: 3px;
+  background-color: white;
+  transition: 0.3s;
+}
+
+.rotate1 {
+  transform: rotate(45deg) translate(5px, 5px);
+}
+
+.rotate2 {
+  transform: rotate(-45deg) translate(5px, -5px);
+}
+
+.fade {
+  opacity: 0;
+}
+
+/* Responsive Behavior */
+@media (max-width: 768px) {
+  .hamburger {
+    display: flex;
+  }
+
+  .navbar-links {
+    display: none;
+    position: absolute;
+    top: 60px;
+    left: 0;
+    background-color: #16a085;
+    width: 100%;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    padding: 20px 0;
+  }
+
+  .navbar-links.open {
+    display: flex;
+  }
+}

@@ -1,0 +1,84 @@
+.testimonials-owner-section {
+  padding: 60px 20px;
+  background-color: #f9f9f9;
+  
+  margin: auto;
+}
+
+.section-title {
+  text-align: center;
+  font-size: 28px;
+  margin-bottom: 40px;
+}
+
+.testimonial-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+  margin-bottom: 60px;
+}
+
+.testimonial-card {
+  background-color: white;
+  padding: 20px;
+  width: 300px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+  border-radius: 6px;
+}
+
+.testimonial-card .message {
+  font-style: italic;
+  margin-bottom: 15px;
+  color: #555;
+}
+
+.testimonial-card .name {
+  font-weight: bold;
+  font-size: 18px;
+}
+
+.testimonial-card .role {
+  font-size: 14px;
+  color: #888;
+}
+
+.owner-highlight {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 30px;
+  background-color: white;
+  padding: 30px;
+  border-radius: 6px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+
+.owner-image {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 3px solid #007BFF;
+}
+
+.owner-info {
+  flex: 1;
+}
+
+.owner-name {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.owner-title {
+  color: #007BFF;
+  font-weight: 500;
+  margin-bottom: 10px;
+}
+
+.owner-bio {
+  color: #444;
+  line-height: 1.6;
+}
