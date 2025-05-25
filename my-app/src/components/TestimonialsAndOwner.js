@@ -83,13 +83,13 @@ import nishank from '../assets/nishank.jpg'
 
 const testimonials = [
   {
-    name: 'John Doe',
-    role: 'CEO, ABC Corp',
+    name: 'Rajiv Agarwal',
+    role: 'CEO, Agarwal Caterers',
     message: 'This company transformed our workflow. Highly recommended!',
   },
   {
-    name: 'Jane Smith',
-    role: 'CTO, TechFlow',
+    name: 'Manish Gupta',
+    role: 'CTO, DMB',
     message: 'Exceptional service and support throughout our journey.',
   },
   // Add more unique testimonials if needed
