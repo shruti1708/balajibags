@@ -13,7 +13,7 @@ function ContactUs() {
         <div className="contact-details">
           <h2>Contact Information</h2>
           <p><strong>Address:</strong> Balaji Bags, Jaipur, Rajasthan - 302001</p>
-          <p><strong>Phone:</strong> +91-9876543210</p>
+          <p><strong>Phone:</strong> +91-9784180198</p>
           <p><strong>Email:</strong> contact@balajibags.in</p>
           <p><strong>Working Hours:</strong> Mon - Sat: 9:00 AM – 7:00 PM</p>
         </div>
