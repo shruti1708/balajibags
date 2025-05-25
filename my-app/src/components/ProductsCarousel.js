@@ -48,20 +48,20 @@
 // }
 
 // export default ProductsCarousel;
-import React, { useEffect, useState } from 'react';
-import bag1 from '../assets/bopp-carry-bags.webp';
-import bag2 from '../assets/box-bag.webp';
-import bag3 from '../assets/d-cut.webp';
-import bag4 from '../assets/lehanga-cover.webp';
-import bag5 from '../assets/non-wovencarrybag.jpg';
-import './ProductsCarousel.css';
+import React, { useEffect, useState } from "react";
+import bag1 from "../assets/bopp-carry-bags.webp";
+import bag2 from "../assets/box-bag.webp";
+import bag3 from "../assets/d-cut.webp";
+import bag4 from "../assets/lehanga-cover.webp";
+import bag5 from "../assets/non-wovencarrybag.jpg";
+import "./ProductsCarousel.css";
 
 const images = [
-  { src: bag1, label: 'BOPP Carry Bag' },
-  { src: bag2, label: 'Box Bag' },
-  { src: bag3, label: 'D-Cut Bag' },
-  { src: bag4, label: 'Lehenga Cover' },
-  { src: bag5, label: 'Non-Woven Carry Bag' },
+  { src: bag1, label: "BOPP Carry Bag" },
+  { src: bag2, label: "Box Bag" },
+  { src: bag3, label: "D-Cut Bag" },
+  { src: bag4, label: "Lehenga Cover" },
+  { src: bag5, label: "Non-Woven Carry Bag" },
 ];
 
 function ProductsCarousel() {
@@ -81,8 +81,8 @@ function ProductsCarousel() {
     };
 
     updateVisibleCount();
-    window.addEventListener('resize', updateVisibleCount);
-    return () => window.removeEventListener('resize', updateVisibleCount);
+    window.addEventListener("resize", updateVisibleCount);
+    return () => window.removeEventListener("resize", updateVisibleCount);
   }, []);
 
   useEffect(() => {
@@ -106,9 +106,12 @@ function ProductsCarousel() {
       <div className="carousel-row">
         {getVisibleImages().map((img, index) => (
           <div key={index} className="carousel-img-container fade-in">
-            <img src={img.src} alt={img.label} className="carousel-img" />
-            <div className="carousel-label">{img.label}</div>
-          </div>
+  <img src={img.src} alt={img.label} className="carousel-img" />
+  <div className="carousel-overlay">
+    <span className="carousel-label">{img.label}</span>
+  </div>
+</div>
+
         ))}
       </div>
     </div>
